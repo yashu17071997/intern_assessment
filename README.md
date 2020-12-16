@@ -5,6 +5,7 @@ $ mkdir Src
 $ cd Src
 Step 2: Creating a python file 
 $ touch main.py
+(here the code can be fetched from main.py) 
 Step 3: Creating a virtual environment and then later activate it
 $ python3 -m venv env
 $ source env/bin/activate
