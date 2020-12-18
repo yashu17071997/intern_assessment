@@ -15,3 +15,7 @@ Step 5: To run the python file
 $ python main.py
 
 On running the URL http://localhost:5000/v1/sanitized/input in Postman, we get to know the output is sanitized or unsanitized for the payload input.
+
+To run the test file command used is: 
+
+python -m unittest discover -p test.py
