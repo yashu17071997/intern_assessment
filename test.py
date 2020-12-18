@@ -22,7 +22,7 @@ class TestApi(unittest.TestCase):
         headers = {'Content-type': 'application/json'}
 
         response = requests.post(TestApi.api_url,
-                                 json={"payload": "Delete where Id='1'"},
+                                 json={"payload": "DELETE FROM Customers WHERE CustomerName='Test'"},
                                  headers=headers)
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.content, b'{\n    "result": "unsanitized"\n}\n')
